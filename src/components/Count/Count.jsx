@@ -46,7 +46,7 @@ export default function Count() {
         setPopupMessage("Hello in our page");
         const time = setTimeout(() => {
             setPopupMessage("");
-        }, 4000);
+        }, 5000);
 
         return () => clearTimeout(time);
     }, []);
@@ -56,7 +56,7 @@ export default function Count() {
             setPopupMessage(`Count reach to ${count}`);
             const time = setTimeout(() => {
                 setPopupMessage("");
-            }, 2000);
+            }, 3000);
             return () => clearTimeout(time);
         }
     }, [count]);
