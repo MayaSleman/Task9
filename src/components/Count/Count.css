@@ -16,6 +16,8 @@
     border-radius: 20px;
     padding:15px 25px;
     margin: 20px;
+    font-weight: bold;
+    font-size:18px;
     transition: all 0.3s ease;
 }
 .MS-btn:hover {

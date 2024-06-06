@@ -56,7 +56,7 @@ export default function Count() {
             setPopupMessage(`Count reach to ${count}`);
             const time = setTimeout(() => {
                 setPopupMessage("");
-            }, 3000);
+            }, 2000);
             return () => clearTimeout(time);
         }
     }, [count]);
